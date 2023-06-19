@@ -1,0 +1,11 @@
+{
+  "name": "better-plugin",
+  "main": "main.js",
+  "version": "1.0.0",
+  "displayName": "BetterPlugin",
+  "author": "hvlxh",
+  "description": "An nice way to make GreenFrogMCBE plugin",
+  "devDependencies": {
+    "@types/node": "^20.3.1"
+  }
+}
