@@ -2,7 +2,7 @@ const Command = require("../base/Command")
 
 class TestCommand extends Command {
   constructor() {
-    super("test", "Hello")
+    super()
   }
 
   run(player) {

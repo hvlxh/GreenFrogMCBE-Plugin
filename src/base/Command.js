@@ -1,17 +1,18 @@
 class Command {
   /**
    *
-   * @param {{ name: string; description: string } | string} name
+   * @param {{ name: string; description: string; args: { min: number, max: number }, op: boolean } | string} name
    * @param {string} description
    */
-  constructor(name, description) {
+  constructor(name, description, args, op) {
     if (typeof name == "object") {
       this.info = name
     } else {
-      console.log(name, description)
       this.info = {
         name,
         description,
+        args,
+        op
       }
     }
   }
